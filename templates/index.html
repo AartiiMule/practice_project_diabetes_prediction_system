@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to test lab</title>
+</head>
+<body style="background-image: url('https://www.cdc.gov/diabetes/images/basics/Diabetes-Risk-Factors.jpg?_=79314');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;">
+    <b style="font-size: 30px;"> 
+    <h1 align="center">Welcome To Diabetic Test Lab</h1> 
+    <h6 align="center">
+    <form method="GET" action ="/predict_charges">
+
+            <label>Age:</label>
+            <input type = "text" name = "Age" >
+            </select>
+
+
+            <br>
+            <br>
+
+            <label>Body Mass Index:</label>
+            <input type = "text" name = "BMI">
+            </select>
+
+
+            <br>
+            <br>
+
+            <label>Glucose:</label>
+            <input type = "text" name = "Glucose">
+            </select>
+
+
+            <br>
+            <br>
+
+            <label>BloodPressure:</label>
+            <input type = "text" name="BloodPressure">
+            </select>
+
+            <br>
+            <br>
+
+            <label>Skin Thickness:</label>
+            <input type = "text" name = "SkinThickness">
+            </select>
+
+
+            <br>
+            <br>
+
+            <label>Insulin:</label>
+            <input type = "text" name = "Insulin">
+            </select>
+
+
+            <br>
+            <br>
+
+            <label>Diabetes Pedigree Function:</label>
+            <input type = "text" name = "DiabetesPedigreeFunction">
+            </select>
+
+
+            <br>
+            <br>
+
+
+            
+            <br>
+            <input type = "submit" value = "SUBMIT">
+
+            <br>
+            <br>
+            <br>
+            <p><b><h3>{{prediction}}</h3></p>
+    </h6>
+    </b>
+        </form>
+
+
+</body>
+
+
+</html>
